@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PullBox</title>
+    <style>
+        body {
+            background-color: #111;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        
+        #header {
+            padding: 100px 0;
+            animation: fadeInUp 2s ease; /* Apply animation to the header */
+        }
+        
+        #title {
+            font-size: 5rem;
+            color: #03FFC4; /* Your call-to-action color */
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        
+        #description {
+            font-size: 1.8rem;
+            margin: 15px 0 50px;
+            font-weight: bold;
+        }
+        
+        #download-button {
+            background-color: #03FFC4; /* Your call-to-action color */
+            color: #111;
+            padding: 15px 60px;
+            font-size: 1.2rem;
+            text-decoration: none;
+            border-radius: 50px; /* Rounded corners for the button */
+            transition: background-color 0.3s ease;
+        }
+        
+        #download-button:hover {
+            background-color: #00CC9A; /* Darker shade for hover effect */
+        }
+
+        /* Add your custom styles below */
+        #features {
+            padding: 50px 0;
+        }
+
+        .feature {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 20px;
+        }
+
+        .feature-title {
+            font-size: 1.5rem;
+            margin: 10px 0;
+        }
+
+        .feature-description {
+            font-size: 1rem;
+        }
+
+        /* Add animations for scrolling */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .animate-on-scroll {
+            animation: fadeInUp 6s ease;
+        }
+
+        /* Style the specific words in the description */
+        .highlighted {
+            color: #03FFC4; /* Your desired color */
+            text-decoration: underline; /* Underline the text */
+        }
+    </style>
+</head>
+<body>
+    <section id="header">
+        <h1 id="title">PullBox</h1>
+        <p id="description">Talk. Discover. Earn.</p>
+        <a href="#" id="download-button">Download</a>
+    </section>
+
+    <section id="features">
+        <div class="feature animate-on-scroll">
+            <h2 class="feature-title">Easily Find Groups</h2>
+            <p class="feature-description">Discover groups tailored to your interests and preferences.</p>
+        </div>
+        <div class="feature animate-on-scroll">
+            <h2 class="feature-title">Create</h2>
+            <p class="feature-description">Express yourself by creating and sharing your own discussion groups.</p>
+        </div>
+        <div class="feature animate-on-scroll">
+            <h2 class="feature-title">Earn</h2>
+            <p class="feature-description">Monetize your content and engage with a thriving community.</p>
+        </div>
+    </section>
+    
+    <!-- Add more sections, content, and styling as needed -->
+
+    <p>Like the name: Bytelink.</p>
+    <p><a href="https://filipbds.github.io/Privacy/privacy-policy.md">Terms & Privacy</a></p>
+</body>
+</html>
